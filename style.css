@@ -1,0 +1,140 @@
+/* Here goes your CSS */
+body {
+  color: #547980;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  /*background-color: #e5fcc2;*/
+  text-align: center;
+  line-height: 24px;
+
+  background: linear-gradient(202deg, #06f2b5, #17319d);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 13s ease infinite;
+  -moz-animation: AnimationName 13s ease infinite;
+  -o-animation: AnimationName 13s ease infinite;
+  animation: AnimationName 13s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:79% 0%}
+    50%{background-position:22% 100%}
+    100%{background-position:79% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:79% 0%}
+    50%{background-position:22% 100%}
+    100%{background-position:79% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:79% 0%}
+    50%{background-position:22% 100%}
+    100%{background-position:79% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:79% 0%}
+    50%{background-position:22% 100%}
+    100%{background-position:79% 0%}
+}
+
+
+h1 {
+  color: #45ada8;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+h3 {
+  line-height: 24px;
+  margin: 20px;
+}
+
+.fa {
+  font-size: 50px;
+}
+
+.article {
+   margin: 20px;
+}
+
+.img-profile {
+  width: 150px;
+  height: 150px;
+  border: 3px
+  solid #45ada8;
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #45ada8;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+  line-height: 70px;
+}
+
+.btn-blue:hover {
+  background-color: #547980;
+  color: white;
+  text-decoration: none;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+h2 {
+  color: #9de0ad;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  text-decoration: none;
+  color: #45ada8;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #547980;
+}
+
+.RG {
+  font-size: 20px;
+  margin-left: 42px;
+  margin-bottom: -20px;
+  padding: 5px;
+  width: 25px;
+  height: 25px;
+  background-color: #45ada8;
+  color: white;
+  border: 5px solid #45ada8;
+  border-radius: 15%;
+}
+
+.RG:hover {
+background-color: #547980;
+border: 5px solid #547980;
+}
